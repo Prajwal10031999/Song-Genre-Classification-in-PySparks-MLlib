@@ -12,7 +12,7 @@ I decided to approach this analysis in 4 main steps.
 <br />
 1] Create Baseline: Train and evaluate models on raw data without pre-treating it for outliers, skewness or negative values. This way we can clearly see what effect our transformations have on our analysis. <br />
 
-2] Test treatments: Train and evaluate models on treated data (outliers, skewness and negative values) and compare to baseline (#1). <br />
+2] Test treatments: Train and evaluate models on treated data (outliers, skewness and negative values) and compare to baseline. <br />
 
 3] Feature Selection: Select the best performing models from the previous two approaches and perform feature selection on it to fine tune it. <br />
 
